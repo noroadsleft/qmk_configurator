@@ -54,7 +54,7 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
 1. Using your terminal, navigate to the `qmk_configurator` folder.
 2. If this is your first time deploying QMK Configurator, run `yarn install`. Otherwise, skip to Step 3.
 3. Run `yarn serve` and wait for yarn to set up the modules.
-4. When yarn has set up the modules, it will output the local host address for your QMK Configurator instance:
+4. When yarn has set up the modules, it will output the local host address for your QMK Configurator instance:  
    ![MSYS Deploy](deploy-windows-msys-deploy.png)
 5. Open the web browser of your choice<sup>[a](#footnote_supported_browsers)</sup> and open the URL listed as `Local`.
 
