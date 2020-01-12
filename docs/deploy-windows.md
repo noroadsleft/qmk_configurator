@@ -38,7 +38,7 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
       - Drive letters `C:` should be changed to `/c/`.
       - Change any backslashes `\` to forward slashes `/`.
       - Put a backslash before any spaces.  
-      ![MSYS2 paths](deploy-windows-msys-paths.png)
+      ![MSYS2 path exports](deploy-windows-msys-path-exports.png)
    3. Save and close the file.
    4. Run `source ~/.bashrc` so MSYS2/MinGW picks up the now-added variables.
 5. Install the desired version(s) of Node.js using `nvm install <version>`.
