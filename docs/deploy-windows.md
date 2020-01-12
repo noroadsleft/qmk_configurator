@@ -23,11 +23,6 @@ export PATH=$PATH:/c/nvm
 export PATH=$PATH:/c/Program\ Files/nodejs
 ```
 
-    nvm install
-    node --version
-    nvm --version
-    yarn --version
-
 ----
 
 ## Install for MSYS2/MinGW
