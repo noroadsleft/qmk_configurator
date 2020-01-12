@@ -63,4 +63,4 @@ export PATH=$PATH:/c/Program\ Files/nodejs
 5. Open the web browser of your choice<sup>[a](#footnote_supported_browsers)</sup> and open the URL listed as `Local`.
 
 [nvm-windows]: https://github.com/coreybutler/nvm-windows/releases "Node Version Manager (nvm) for Windows"
-<a name="footnote_supported_browsers">a</a>: Footnote content goes here
+<a name="footnote_supported_browsers">a</a>: QMK Configurator is officially supported only in Mozilla Firefox and Google Chrome.
