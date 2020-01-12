@@ -16,8 +16,8 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
 2. Run the `nvm-setup.exe` therein, and follow the prompts.
 3. Open a Command Prompt window and install the desired version(s) of Node.js using `nvm install <version>`.
    - QMK Configurator's required version of Node.js will be defined in the `.nvmrc` file in the root directory of the `qmk_configurator` repository.
-4. Configure the desired Node version using `nvm use <version>`.
-5. Install yarn using `npm i -g yarn`.
+4. Configure the desired Node.js version using `nvm use <version>`.
+5. Install Yarn using `npm i -g yarn`.
 6. [Deploy the QMK Configurator.]
 
 ----
@@ -43,8 +43,8 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
    4. Run `source ~/.bashrc` so MSYS2/MinGW picks up the now-added variables.
 5. Install the desired version(s) of Node.js using `nvm install <version>`.
    - QMK Configurator's required version of Node.js will be defined in the `.nvmrc` file in the root directory of the `qmk_configurator` repository.
-6. Configure the desired Node version using `nvm use <version>`.
-7. Install yarn using `npm i -g yarn`.
+6. Configure the desired Node.js version using `nvm use <version>`.
+7. Install Yarn using `npm i -g yarn`.
 8. [Deploy the QMK Configurator.]
 
 ----
@@ -53,8 +53,8 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
 
 1. Using your terminal, navigate to the `qmk_configurator` folder.
 2. If this is your first time deploying QMK Configurator, run `yarn install`. Otherwise, skip to Step 3.
-3. Run `yarn serve` and wait for yarn to set up the modules.
-4. When yarn has set up the modules, it will output the local host address for your QMK Configurator instance:  
+3. Run `yarn serve` and wait for Yarn to set up the modules.
+4. When Yarn has set up the modules, it will output the local host address for your QMK Configurator instance:  
    ![MSYS Deploy](deploy-windows-msys-deploy.png)
 5. Open the web browser of your choice<sup>[a](#footnote_supported_browsers)</sup> and open the URL listed as `Local`.
 
