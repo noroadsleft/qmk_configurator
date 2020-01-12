@@ -1,9 +1,9 @@
 # Deploy a Local Instance of QMK Configurator on Windows
 
-Windows users who wish to deploy a local instance QMK Configurator can do so using either Windows Command Prompt/Powershell or an MSYS2/MinGW terminal.
+Windows users who wish to deploy a local instance QMK Configurator can do so using either Windows Command Prompt/Powershell or an MSYS2 or MinGW terminal.
 
 - [Instructions for Windows Command Prompt/Powershell](#install-for-windows-command-promptpowershell)
-- [Instructions for MSYS2/MinGW](#install-for-msys2mingw)
+- [Instructions for MSYS2 or MinGW](#install-for-msys2-or-mingw)
 - [Deploy the QMK Configurator](#deploy-the-qmk-configurator)
 
 ----
@@ -22,7 +22,7 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
 
 ----
 
-## Install for MSYS2/MinGW
+## Install for MSYS2 or MinGW
 
 ### Installation and Configuration
 
