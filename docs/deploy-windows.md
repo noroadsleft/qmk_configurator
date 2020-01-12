@@ -14,9 +14,9 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
 
 1. Download the latest `nvm-setup.zip` for [nvm-windows] and extract it.
 2. Run the `nvm-setup.exe` therein, and follow the prompts.
-3. Open a Command Prompt window and install the desired version(s) of Node.js using `nvm install <version>`.
+3. Open a Command Prompt window and install the desired version of Node.js using `nvm install <version>`.
    - QMK Configurator's required version of Node.js will be defined in the `.nvmrc` file in the root directory of the `qmk_configurator` repository.
-4. Configure the desired Node.js version using `nvm use <version>`.
+4. Configure the desired Node.js version using `nvm use`.
 5. Install Yarn using `npm i -g yarn`.
 6. [Deploy the QMK Configurator.]
 
@@ -41,9 +41,9 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
       ![MSYS2 path exports](deploy-windows-msys-path-exports.png)
    3. Save and close the file.
    4. Run `source ~/.bashrc` so MSYS2/MinGW picks up the now-added variables.
-5. Install the desired version(s) of Node.js using `nvm install <version>`.
+5. Install the desired version of Node.js using `nvm install`.
    - QMK Configurator's required version of Node.js will be defined in the `.nvmrc` file in the root directory of the `qmk_configurator` repository.
-6. Configure the desired Node.js version using `nvm use <version>`.
+6. Configure the desired Node.js version using `nvm use`.
 7. Install Yarn using `npm i -g yarn`.
 8. [Deploy the QMK Configurator.]
 
