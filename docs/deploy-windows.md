@@ -18,11 +18,6 @@ Windows users who wish to deploy a local instance QMK Configurator can do so usi
 4. Configure the desired Node version using `nvm use <version>`
 5. Install yarn using `npm i -g yarn`
 
-```
-export PATH=$PATH:/c/nvm
-export PATH=$PATH:/c/Program\ Files/nodejs
-```
-
 ----
 
 ## Install for MSYS2/MinGW
@@ -34,6 +29,10 @@ export PATH=$PATH:/c/Program\ Files/nodejs
    **For the nvm installation folder, choose a path that does not contain any spaces.**
 3. export $NVM_HOME to $PATH
 4. export $NVM_SYMLINK to $PATH
+    ```
+    export PATH=$PATH:/c/nvm
+    export PATH=$PATH:/c/Program\ Files/nodejs
+    ```
 
 ----
 
