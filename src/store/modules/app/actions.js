@@ -38,6 +38,18 @@ const actions = {
       });
   },
   /**
+   * load the generic keymap for the currently selected layout macro
+   */
+  loadLayoutKeymap({ state }) {
+    // eslint-disable-next-line
+    const layout = state.layout;
+    return axios.get(`keymaps/_layouts/${layout}.json`).then(r => {
+      if (r.status === 200) {
+        return r.data;
+      }
+    });
+  },
+  /**
    * load keymap from the selected URL
    */
   async loadKeymapFromUrl(_, url) {

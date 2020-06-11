@@ -1,0 +1,22 @@
+{
+  "keyboard": "_",
+  "keymap": "default",
+  "commit": "57815dbc3be3ff49495d4347595b5c3e080c51c9",
+  "layout": "LAYOUT_numpad_5x6",
+  "layers": [
+    [
+      "KC_ESC",  "KC_LPRN", "KC_RPRN", "KC_PSLS", "KC_PAST", "KC_PMNS",
+      "KC_A",    "KC_B",    "KC_P7",   "KC_P8",   "KC_P9",
+      "KC_C",    "KC_D",    "KC_P4",   "KC_P5",   "KC_P6",   "KC_PPLS",
+      "KC_E",    "KC_F",    "KC_P1",   "KC_P2",   "KC_P3",
+      "KC_LCTL", "TG(1)",   "KC_P0",              "KC_PDOT", "KC_PENT"
+    ],
+    [
+      "RESET",   "_______", "_______", "_______", "_______", "_______",
+      "_______", "_______", "KC_HOME", "KC_UP",   "KC_PGUP",
+      "_______", "_______", "KC_LEFT", "XXXXXXX", "KC_RGHT", "_______",
+      "_______", "_______", "KC_END",  "KC_DOWN", "KC_PGDN",
+      "_______", "_______", "KC_INS",             "KC_DEL",  "_______"
+    ]
+  ]
+}

@@ -64,6 +64,13 @@
           {{ $t('loadDefault.label') }}
         </button>
         <button
+          id="load-default"
+          v-tooltip="$t('loadLayout.title')"
+          @click="loadLayout"
+        >
+          {{ $t('loadLayout.label') }}
+        </button>
+        <button
           id="compile"
           v-tooltip="$t('compile.title')"
           v-bind:disabled="compileDisabled"
@@ -216,6 +223,7 @@ export default {
       'changeKeyboard',
       'fetchKeyboards',
       'loadDefaultKeymap',
+      'loadLayoutKeymap',
       'setFavoriteKeyboard'
     ]),
     ...mapActions('keymap', ['initTemplates']),
@@ -257,6 +265,54 @@ export default {
         .catch(error => {
           statusError(
             `\n* Sorry there is no default for the ${this.keyboard} keyboard... yet!`
+          );
+          console.log('error loadDefault', error);
+        });
+    },
+    /**
+     * loadLayout keymap. Attempts to load a keymap data from
+     * a predefined known file path.
+     * @param {boolean} isAutoInit If the method is called by the code
+     * @return {object} promise when it has completed
+     */
+    loadLayout(isAutoInit = false) {
+      if (this.isDirty) {
+        if (
+          !confirm(
+            clearKeymapTemplate({
+              action: 'load a generic keymap for this layout macro'
+            })
+          )
+        ) {
+          return false;
+        }
+      }
+      const store = this.$store;
+      this.loadLayoutKeymap()
+        .then(data => {
+          if (data) {
+            console.log(data);
+            //this.updateLayout(data.layout);
+            let promise = new Promise(resolve =>
+              store.commit('keymap/setLoadingKeymapPromise', resolve)
+            ).then(() => {
+              // clear the keymap name for the default keymap
+              // otherwise it overrides the default getter
+              this.updateKeymapName('');
+              const stats = load_converted_keymap(data.layers);
+              const msg = this.$t('statsTemplate', stats);
+              store.commit('status/append', msg);
+              if (!isAutoInit) {
+                store.commit('keymap/setDirty');
+              }
+            });
+            return promise;
+          }
+          return data;
+        })
+        .catch(error => {
+          statusError(
+            `\n* Sorry there is no default for the ${this.layout} layout... yet!`
           );
           console.log('error loadDefault', error);
         });
