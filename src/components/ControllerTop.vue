@@ -298,7 +298,7 @@ export default {
             ).then(() => {
               // clear the keymap name for the default keymap
               // otherwise it overrides the default getter
-              this.updateKeymapName('');
+              this.updateKeymapName(data.keymap);
               const stats = load_converted_keymap(data.layers);
               const msg = this.$t('statsTemplate', stats);
               store.commit('status/append', msg);

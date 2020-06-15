@@ -1,6 +1,6 @@
 {
   "keyboard": "_",
-  "keymap": "default",
+  "keymap": "default_65_ansi_blocker_split_bs",
   "commit": "3337eb10b237c39dee1a0517fdea2a3ec8c6c48b",
   "layout": "LAYOUT_65_ansi_blocker_split_bs",
   "layers": [

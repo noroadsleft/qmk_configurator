@@ -1,6 +1,6 @@
 {
   "keyboard": "_",
-  "keymap": "default",
+  "keymap": "default_numpad_5x4",
   "commit": "57815dbc3be3ff49495d4347595b5c3e080c51c9",
   "layout": "LAYOUT_numpad_5x4",
   "layers": [
