@@ -8,6 +8,11 @@
 .gmk-8008-mod {
   background: #313943;
   color: #fe5487;
+  input, .key-contents {
+    background: darken(#313943, 8%);
+    color: #fe5487;
+    border-color: mix(#313943, #fe5487);
+  }
 }
 
 .gmk-8008-accent {
