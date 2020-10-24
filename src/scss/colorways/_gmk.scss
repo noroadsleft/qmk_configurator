@@ -250,6 +250,11 @@
 .gmk-dracula-mod6 {
   background: #282a36;
   color: #50fa7b;
+  input, .key-contents {
+    background: darken(#282a36, 5%);
+    color: #50fa7b;
+    border-color: mix(#282a36, #50fa7b);
+  }
 }
 .gmk-dracula-accent {
   background: #ff5555;
