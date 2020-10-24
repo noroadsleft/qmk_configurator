@@ -189,6 +189,11 @@
 .gmk-deku-mod {
   background: #e5e1de;
   color: #298286;
+  input, .key-contents {
+    background: lighten(#e5e1de, 5%);
+    color: #298286;
+    border-color: mix(#e5e1de, #298286);
+  }
 }
 .gmk-deku-accent {
   background: #b03232;
