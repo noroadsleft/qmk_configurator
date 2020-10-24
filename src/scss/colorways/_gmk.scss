@@ -657,6 +657,11 @@
 .gmk-nines-mod {
   background: $color-gmk-abs-N9;
   color: $color-gmk-abs-U9;
+  input, .key-contents {
+    background: $color-gmk-abs-N9;
+    color: $color-gmk-abs-U9;
+    border-color: mix($color-gmk-abs-N9, $color-gmk-abs-U9);
+  }
 }
 .gmk-nines-accent {
   background: $color-gmk-abs-U9;
