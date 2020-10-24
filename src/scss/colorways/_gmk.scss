@@ -562,6 +562,11 @@
 .gmk-metropolis-base-accent3 {
   background: $color-pantone-179C;
   color: $color-pantone-5395C;
+  input, .key-contents {
+    background: lighten($color-pantone-179C, 5%);
+    color: $color-pantone-5395C;
+    border-color: mix($color-pantone-179C, $color-pantone-5395C);
+  }
 }
 .gmk-metropolis-base-kb {
   // placeholder
