@@ -398,6 +398,11 @@
 .gmk-handarbeit-plus-mod {
   background: $color-gmk-abs-P3;
   color: $color-gmk-abs-WS1;
+  input, .key-contents {
+    background: darken($color-gmk-abs-P3, 5%);
+    color: $color-gmk-abs-WS1;
+    border-color: mix($color-gmk-abs-P3, $color-gmk-abs-WS1);
+  }
 }
 .gmk-handarbeit-plus-accent {
   background: $color-gmk-abs-V4;
