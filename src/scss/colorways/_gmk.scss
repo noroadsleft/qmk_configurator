@@ -74,6 +74,11 @@
 .gmk-ascii-mod {
   background: $color-gmk-abs-2B;
   color: $color-gmk-abs-2M;
+  input, .key-contents {
+    background: darken($color-gmk-abs-2B, 6%);
+    color: $color-gmk-abs-2M;
+    border-color: mix($color-gmk-abs-2B, $color-gmk-abs-2M);
+  }
 }
 
 .gmk-bento-key {
