@@ -120,6 +120,7 @@ export default {
           .replace(/Kat/, 'KAT')
           .replace(/Wob/, 'WOB')
           .replace(/Ta/, 'TA')
+          .replace(/Ascii/, 'ASCII')
           .replace(/ ?Plus/g, '+');
       });
     },
