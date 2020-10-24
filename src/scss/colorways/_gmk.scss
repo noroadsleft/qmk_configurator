@@ -28,6 +28,11 @@
 .gmk-9009-mod {
   background: $color-gmk-abs-U9;
   color: $color-gmk-abs-CR;
+  input, .key-contents {
+    background: lighten($color-gmk-abs-U9, 8%);
+    color: $color-gmk-abs-CR;
+    border-color: mix($color-gmk-abs-U9, $color-gmk-abs-CR);
+  }
 }
 
 .gmk-9009-esc {
@@ -48,6 +53,11 @@
 .gmk-analog-dreams-mod {
   background: #9de7d7;
   color: #ac4fc6;
+  input, .key-contents {
+    background: lighten(#9de7d7, 7%);
+    color: #ac4fc6;
+    border-color: mix(#9de7d7, #ac4fc6);
+  }
 }
 
 .gmk-analog-dreams-esc {
