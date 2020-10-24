@@ -113,6 +113,11 @@
 .gmk-bingsu-mod {
   background: #533d45;
   color: $color-gmk-abs-CP;
+  input, .key-contents {
+    background: darken(#533d45, 7%);
+    color: $color-gmk-abs-CP;
+    border-color: mix(#533d45, $color-gmk-abs-CP);
+  }
 }
 .gmk-bingsu-accent {
   background: $color-gmk-abs-CP;
