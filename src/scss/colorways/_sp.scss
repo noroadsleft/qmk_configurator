@@ -66,6 +66,11 @@
 .sa-bliss-mod {
   background: $color-sp-abs-GC;
   color: $color-pantone-13-1406TCX;
+  input, .key-contents {
+    background: darken($color-sp-abs-GC, 8%);
+    color: $color-pantone-13-1406TCX;
+    border-color: mix($color-sp-abs-GC, $color-pantone-13-1406TCX);
+  }
 }
 .sa-bliss-accent {
   background: $color-pantone-13-1406TCX;
