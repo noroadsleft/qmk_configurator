@@ -131,6 +131,12 @@
 .gmk-cafe-mod {
   background: #3d3635;
   color: $color-gmk-abs-L9;
+  input, .key-contents {
+    background: darken(#3d3635, 7%);
+    color: $color-gmk-abs-L9;
+    border-color: mix(#3d3635, $color-gmk-abs-L9);
+  }
+
 }
 .gmk-cafe-accent {
   background: #d0b084;
