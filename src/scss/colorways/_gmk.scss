@@ -753,6 +753,11 @@
 .gmk-phosphorous-mod {
   background: $color-pantone-11C;
   color: $color-pantone-311C;
+  input, .key-contents {
+    background: darken($color-pantone-11C, 5%);
+    color: $color-pantone-311C;
+    border-color: mix($color-pantone-11C, $color-pantone-311C);
+  }
 }
 .gmk-phosphorous-accent {
   background: $color-pantone-311C;
