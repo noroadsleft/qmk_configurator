@@ -175,6 +175,11 @@
 .gmk-calm-depths-mod {
   background: #4a4f58;
   color: #22aabc;
+  input, .key-contents {
+    background: darken(#4a4f58, 5%);
+    color: #22aabc;
+    border-color: mix(#4a4f58, #22aabc);
+  }
 }
 
 .gmk-deku-key {
