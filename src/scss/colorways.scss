@@ -1583,6 +1583,12 @@
 .dcs-midnight-mod {
   background: $color-sp-abs-GEW;
   color: $color-sp-abs-VCO;
+  input,
+  .key-contents {
+    background: darken($color-sp-abs-GEW, 6%);
+    color: $color-sp-abs-VCO;
+    border-color: $color-sp-abs-VCO;
+  }
 }
 
 .dcs-midnight-accent {
