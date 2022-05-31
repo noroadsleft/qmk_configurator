@@ -1608,6 +1608,12 @@
 .dcs-midnight-twilight-mod {
   background: $color-sp-abs-VCO;
   color: $qmk-black;
+  input,
+  .key-contents {
+    background: lighten($color-sp-abs-VCO, 6%);
+    color: $qmk-black;
+    border-color: $qmk-black;
+  }
 }
 
 .mt3-lotr-elvish-kb {
