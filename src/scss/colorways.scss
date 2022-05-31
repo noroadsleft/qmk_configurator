@@ -1803,6 +1803,12 @@
 .mt3-3277-ortho-mod {
   background: $color-mt3-abs-3277-mod;
   color: $color-mt3-abs-3277-legend;
+  input,
+  .key-contents {
+    background: darken($color-mt3-abs-3277-mod, 6%);
+    color: $color-mt3-abs-3277-legend;
+    border-color: mix($color-mt3-abs-3277-mod, $color-mt3-abs-3277-legend);
+  }
 }
 
 .mt3-3277-accent-red-kb {
