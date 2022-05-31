@@ -18,16 +18,16 @@ export default [
   mt3_dev_tty,
   mt3_dev_tty_teal,
   mt3_dev_tty_ortho,
-  mt3_susuwatari,
-  mt3_susuwatari_ortho,
+  mt3_3277,
+  mt3_3277_accent_red,
+  mt3_3277_ortho,
   mt3_lotr_elvish,
-  mt3_lotr_elvish_rivendell,
   mt3_lotr_elvish_evenstar,
   mt3_lotr_elvish_ortho,
+  mt3_lotr_elvish_rivendell,
   mt3_lotr_dwarvish,
   mt3_lotr_dwarvish_durin,
   mt3_lotr_dwarvish_ortho,
-  mt3_3277,
-  mt3_3277_ortho,
-  mt3_3277_accent_red
+  mt3_susuwatari,
+  mt3_susuwatari_ortho
 ];
