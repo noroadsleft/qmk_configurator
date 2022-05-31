@@ -1673,6 +1673,12 @@
 .mt3-lotr-elvish-evenstar-mod {
   background: $color-mt3-pbt-elvish-mod;
   color: $color-mt3-pbt-black;
+  input,
+  .key-contents {
+    background: lighten($color-mt3-pbt-elvish-mod, 6%);
+    color: $qmk-black;
+    border-color: $qmk-black;
+  }
 }
 
 .mt3-lotr-elvish-evenstar-accent {
