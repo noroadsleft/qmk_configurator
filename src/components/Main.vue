@@ -116,6 +116,7 @@ export default {
           .replace(/Mt3/, 'MT3')
           .replace(/Dcs/, 'DCS')
           .replace(/Dev Tty/, '/dev/tty')
+          .replace(/Lotr/, 'LOTR')
           .replace(/ ?Plus/g, '+')
           .replace(/ ?Dot ?/g, '\.');
       });
