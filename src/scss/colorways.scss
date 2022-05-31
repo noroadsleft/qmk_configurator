@@ -1718,6 +1718,12 @@
 .mt3-lotr-dwarvish-ortho-mod {
   background: $color-mt3-pbt-dwarvish-mod;
   color: $color-mt3-pbt-black;
+  input,
+  .key-contents {
+    background: lighten($color-mt3-pbt-dwarvish-mod, 16%);
+    color: $qmk-black;
+    border-color: $qmk-black;
+  }
 }
 
 .mt3-lotr-dwarvish-durin-kb {
