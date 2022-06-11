@@ -10,7 +10,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: $color-sp-abs-GB;
     color: lighten($color-sp-abs-VCO, 1%);
     border-color: mix($color-sp-abs-GB, lighten($color-sp-abs-VCO, 1%));
@@ -23,7 +24,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: $color-sp-abs-GEW;
     color: lighten($color-sp-abs-VCO, 14%);
     border-color: mix($color-sp-abs-GEW, lighten($color-sp-abs-VCO, 14%));
@@ -45,7 +47,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: $color-sp-abs-GB;
     color: lighten($color-sp-abs-VCO, 1%);
     border-color: mix($color-sp-abs-GB, lighten($color-sp-abs-VCO, 1%));
@@ -58,7 +61,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: $color-sp-abs-VCO;
     color: $qmk-black;
     border-color: mix($color-sp-abs-VCO, $qmk-black);
@@ -71,7 +75,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-sp-pbt-BFE, 4%);
     color: $color-sp-pbt-BLACK;
     border-color: mix(lighten($color-sp-pbt-BFE, 4%), $color-sp-pbt-BLACK);
@@ -84,7 +89,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-pantone-141C, 4%);
     color: $color-sp-pbt-BLACK;
     border-color: mix(lighten($color-pantone-141C, 4%), $color-sp-pbt-BLACK);
@@ -135,7 +141,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-GC, 4%);
     color: lighten($color-pantone-13-1406TCX, 5%);
     border-color: mix(
@@ -158,7 +165,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-sp-abs-WBO, 4%);
     color: $color-sp-abs-GQM;
     border-color: mix(lighten($color-sp-abs-WBO, 4%), $color-sp-abs-GQM);
@@ -222,7 +230,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-sp-abs-TM, 6%);
     color: darken($color-sp-abs-RN, 8%);
     border-color: mix(
@@ -237,7 +246,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-sp-abs-VCO, 12%);
     color: darken($color-sp-abs-RN, 10%);
     border-color: mix(
@@ -262,7 +272,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-NN, 4%);
     color: $color-sp-abs-WFK;
     border-color: mix(darken($color-sp-abs-NN, 4%), $color-sp-abs-WFK);
@@ -274,7 +285,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-BDH, 4%);
     color: $color-sp-abs-WFK;
     border-color: mix(darken($color-sp-abs-BDH, 4%), $color-sp-abs-WFK);
@@ -289,7 +301,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-sp-abs-WV, 4%);
     color: $color-sp-abs-BBI;
     border-color: mix(lighten($color-sp-abs-WV, 4%), $color-sp-abs-BBI);
@@ -301,7 +314,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-BBI, 4%);
     color: $color-sp-abs-YCF;
     border-color: mix(darken($color-sp-abs-BBI, 4%), $color-sp-abs-YCF);
@@ -316,7 +330,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-sp-abs-WFK, 4%);
     color: darken($color-sp-abs-GD, 10%);
     border-color: mix(
@@ -331,7 +346,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-GQM, 4%);
     color: lighten($color-sp-abs-GAL, 5%);
     border-color: mix(
@@ -354,7 +370,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-7699C, 4%);
     color: lighten($color-sp-abs-WFK, 8%);
     border-color: mix(

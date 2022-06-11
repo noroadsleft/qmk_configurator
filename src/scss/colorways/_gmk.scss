@@ -6,7 +6,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#8d98a7, 8%);
     color: darken(#313943, 9%);
     border-color: mix(#8d98a7, #313943);
@@ -19,7 +20,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#313943, 4%);
     color: lighten(#fe5487, 15%);
     border-color: mix(darken(#313943, 4%), lighten(#fe5487, 15%));
@@ -37,7 +39,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-L9, 4%);
     color: $color-gmk-abs-CR;
     border-color: mix(lighten($color-gmk-abs-L9, 4%), $color-gmk-abs-CR);
@@ -50,7 +53,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-U9, 4%);
     color: $color-gmk-abs-CR;
     border-color: mix(lighten($color-gmk-abs-U9, 4%), $color-gmk-abs-CR);
@@ -73,7 +77,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#2b2c42, 4%);
     color: lighten(#bb1e10, 22%);
     border-color: mix(darken(#2b2c42, 4%), lighten(#bb1e10, 22%));
@@ -85,7 +90,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#312f36, 4%);
     color: lighten(#bb1e10, 23%);
     border-color: mix(darken(#312f36, 4%), lighten(#bb1e10, 23%));
@@ -98,7 +104,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-L9, 8%);
     color: darken(#ac4fc6, 8%);
     border-color: mix($color-gmk-abs-L9, #ac4fc6);
@@ -111,7 +118,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#9de7d7, 8%);
     color: darken(#ac4fc6, 8%);
     border-color: mix(#9de7d7, #ac4fc6);
@@ -135,7 +143,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-2B, 6%);
     color: lighten($color-gmk-abs-2M, 10%);
     border-color: mix($color-gmk-abs-2B, $color-gmk-abs-2M);
@@ -148,7 +157,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: #fff3ef;
     color: darken(#3e728f, 9%);
     border-color: mix(#fff3ef, darken(#3e728f, 9%));
@@ -160,7 +170,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#3e728f, 4%);
     color: lighten(#fb7279, 20%);
     border-color: mix(#3e728f, lighten(#fb7279, 20%));
@@ -177,7 +188,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#946777, 4%);
     color: lighten($color-gmk-abs-CP, 7%);
     border-color: mix(#946777, lighten($color-gmk-abs-CP, 7%));
@@ -189,7 +201,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#533d45, 4%);
     color: $color-gmk-abs-CP;
     border-color: mix(#533d45, $color-gmk-abs-CP);
@@ -206,7 +219,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-L9, 4%);
     color: #3d3635;
     border-color: mix($color-gmk-abs-L9, #3d3635);
@@ -218,7 +232,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#3d3635, 4%);
     color: $color-gmk-abs-L9;
     border-color: mix(#3d3635, $color-gmk-abs-L9);
@@ -235,7 +250,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#2e3b51, 4%);
     color: lighten(#22aabc, 6%);
     border-color: mix(#2e3b51, lighten(#22aabc, 6%));
@@ -247,7 +263,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#4a4f58, 4%);
     color: lighten(#22aabc, 7%);
     border-color: mix(#4a4f58, lighten(#22aabc, 7%));
@@ -260,7 +277,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-sp-abs-WCK, 4%);
     color: darken($color-sp-abs-VF, 6%);
     border-color: mix($color-sp-abs-WCK, $color-sp-abs-VF);
@@ -272,7 +290,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-VF, 4%);
     color: lighten($color-sp-abs-WCK, 4%);
     border-color: mix($color-sp-abs-VF, $color-sp-abs-WCK);
@@ -289,7 +308,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#298286, 4%);
     color: lighten(#e5e1de, 4%);
     border-color: mix(#298286, lighten(#e5e1de, 4%));
@@ -301,7 +321,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#e5e1de, 4%);
     color: darken(#298286, 4%);
     border-color: mix(#e5e1de, darken(#298286, 4%));
@@ -318,7 +339,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-CC, 4%);
     color: $color-gmk-abs-WS1;
     border-color: mix($color-gmk-abs-CC, $color-gmk-abs-WS1);
@@ -330,7 +352,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-N9, 4%);
     color: $color-gmk-abs-WS1;
     border-color: mix($color-gmk-abs-N9, $color-gmk-abs-WS1);
@@ -345,7 +368,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#44475a, 4%);
     color: #f8f8f2;
     border-color: mix(#44475a, #f8f8f2);
@@ -357,7 +381,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#282a36, 4%);
     color: #f8f8f2;
     border-color: mix(#282a36, #f8f8f2);
@@ -385,7 +410,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#282a36, 4%);
     color: #50fa7b;
     border-color: mix(#282a36, #50fa7b);
@@ -434,7 +460,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: $color-gmk-abs-2B;
     color: darken($color-gmk-abs-N9, 18%);
     border-color: mix($color-gmk-abs-2B, darken($color-gmk-abs-N9, 12%));
@@ -483,7 +510,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-L9, 4%);
     color: darken($color-gmk-abs-2B, 8%);
     border-color: mix($color-gmk-abs-L9, darken($color-gmk-abs-N9, 7%));
@@ -507,7 +535,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-L9, 4%);
     color: darken($color-pantone-2088C, 6%);
     border-color: mix($color-gmk-abs-L9, darken($color-pantone-2088C, 6%));
@@ -527,7 +556,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#c7e6f5, 5%);
     color: darken(#f54730, 26%);
     border-color: mix(#c7e6f5, darken(#f54730, 26%));
@@ -539,7 +569,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(rgb(54, 71, 92), 14%);
     color: lighten(rgb(192, 208, 54), 14%);
     border-color: mix(rgb(54, 71, 92), lighten(rgb(192, 208, 54), 14%));
@@ -556,7 +587,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-533C, 4%);
     color: $color-pantone-3258C;
     border-color: mix($color-pantone-533C, $color-pantone-3258C);
@@ -568,7 +600,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-2378C, 4%);
     color: lighten($color-pantone-3258C, 22.1%);
     border-color: mix(
@@ -588,7 +621,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-pantone-536C, 4%);
     color: darken($color-pantone-2378C, 11%);
     border-color: mix($color-pantone-536C, darken($color-pantone-2378C, 11%));
@@ -600,7 +634,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-2378C, 4%);
     color: lighten($color-pantone-3258C, 22.1%);
     border-color: mix(
@@ -621,7 +656,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-P3, 4%);
     color: $color-gmk-abs-WS1;
     border-color: mix($color-gmk-abs-P3, $color-gmk-abs-WS1);
@@ -673,7 +709,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-WS1, 4%);
     color: darken($color-pantone-2346C, 33%);
     border-color: mix($color-gmk-abs-WS1, darken($color-pantone-2346C, 4%));
@@ -685,7 +722,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-pantone-182C, 4%);
     color: darken($color-pantone-2346C, 30%);
     border-color: mix($color-pantone-182C, darken($color-pantone-2346C, 30%));
@@ -702,7 +740,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#84172c, 4%);
     color: #ece4d0;
     border-color: mix(#84172c, #ece4d0);
@@ -714,7 +753,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#ac2c32, 4%);
     color: lighten(#ece4d0, 9%);
     border-color: mix(#ac2c32, lighten(#ece4d0, 9%));
@@ -738,7 +778,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-CP, 4%);
     color: darken($color-gmk-abs-TU1, 5%);
     border-color: mix($color-gmk-abs-CP, darken($color-gmk-abs-TU1, 5%));
@@ -750,7 +791,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-TU1, 4%);
     color: lighten($color-gmk-abs-N6, 24%);
     border-color: mix($color-gmk-abs-TU1, $color-gmk-abs-N6);
@@ -772,7 +814,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-WS1, 4%);
     color: $color-gmk-abs-CR;
     border-color: mix($color-gmk-abs-WS1, $color-gmk-abs-CR);
@@ -784,7 +827,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-CR, 4%);
     color: $color-gmk-abs-WS1;
     border-color: mix($color-gmk-abs-CR, $color-gmk-abs-WS1);
@@ -805,7 +849,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-5395C, 4%);
     color: $color-pantone-333C;
     border-color: mix($color-pantone-5395C, $color-pantone-333C);
@@ -833,7 +878,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-pantone-179C, 4%);
     color: $color-pantone-5395C;
     border-color: mix($color-pantone-179C, $color-pantone-5395C);
@@ -850,7 +896,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-5395C, 4%);
     color: $color-pantone-333C;
     border-color: mix($color-pantone-5395C, $color-pantone-333C);
@@ -870,7 +917,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#c2d9e4, 4%);
     color: darken(#444f58, 4%);
     border-color: mix(#c2d9e4, #444f58);
@@ -882,7 +930,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#444f58, 4%);
     color: #f7eee3;
     border-color: mix(#444f58, #f7eee3);
@@ -899,7 +948,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-534C, 4%);
     color: lighten($color-gmk-abs-TU2, 9%);
     border-color: mix($color-pantone-534C, lighten($color-gmk-abs-TU2, 5%));
@@ -911,7 +961,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-533C, 4%);
     color: $color-gmk-abs-N6;
     border-color: mix($color-pantone-533C, $color-gmk-abs-N6);
@@ -936,7 +987,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-N9, 4%);
     color: lighten($color-gmk-abs-U9, 10%);
     border-color: mix($color-gmk-abs-N9, $color-gmk-abs-U9);
@@ -956,7 +1008,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-CP, 4%);
     color: darken($color-gmk-abs-V4, 5%);
     border-color: mix($color-gmk-abs-CP, darken($color-gmk-abs-V4, 5%));
@@ -968,7 +1021,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-U9, 4%);
     color: darken($color-gmk-abs-V4, 18%);
     border-color: mix($color-gmk-abs-U9, darken($color-gmk-abs-V4, 18%));
@@ -987,7 +1041,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-CP, 4%);
     color: #363434;
     border-color: mix($color-gmk-abs-CP, #363434);
@@ -999,7 +1054,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#363434, 4%);
     color: #e8c4b8;
     border-color: mix(#363434, #e8c4b8);
@@ -1019,7 +1075,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#2b2b2b, 4%);
     color: #f1beb0;
     border-color: mix(#2b2b2b, #f1beb0);
@@ -1040,7 +1097,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-pantone-11C, 4%);
     color: lighten($color-pantone-311C, 4%);
     border-color: mix($color-pantone-11C, $color-pantone-311C);
@@ -1060,7 +1118,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#ded0af, 4%);
     color: darken(#736b7c, 4%);
     border-color: mix(#ded0af, darken(#736b7c, 4%));
@@ -1072,7 +1131,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#736b7c, 4%);
     color: lighten(#ded0af, 8%);
     border-color: mix(#736b7c, lighten(#ded0af, 8%));
@@ -1089,7 +1149,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#ece4d0, 4%);
     color: #333732;
     border-color: mix(#ece4d0, #333732);
@@ -1101,7 +1162,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#ffcd00, 4%);
     color: #333732;
     border-color: mix(#ffcd00, #333732);
@@ -1120,7 +1182,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-GD, 4%);
     color: lighten($color-gmk-abs-CP, 4%);
     border-color: mix($color-sp-abs-GD, lighten($color-gmk-abs-CP, 4%));
@@ -1133,7 +1196,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-sp-abs-BFP, 4%);
     color: lighten($color-gmk-abs-CP, 4%);
     border-color: mix($color-sp-abs-BFP, lighten($color-gmk-abs-CP, 4%));
@@ -1149,7 +1213,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#004d7c, 4%);
     color: $color-gmk-abs-WS1;
     border-color: mix(#004d7c, $color-gmk-abs-WS1);
@@ -1166,7 +1231,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-3K, 4%);
     color: darken($color-gmk-abs-N7, 10%);
     border-color: mix($color-gmk-abs-3K, darken($color-gmk-abs-N7, 10%));
@@ -1178,7 +1244,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-AE, 4%);
     color: lighten($color-gmk-abs-CP, 14%);
     border-color: mix($color-gmk-abs-AE, lighten($color-gmk-abs-CP, 14%));
@@ -1199,7 +1266,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-N9, 4%);
     color: lighten($color-gmk-abs-AE, 20%);
     border-color: mix($color-gmk-abs-N9, lighten($color-gmk-abs-AE, 20%));
@@ -1223,7 +1291,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-vaporwave-lighter-lilac, 4%);
     color: lighten($color-vaporwave-lighter-pink, 8%);
     border-color: mix(
@@ -1239,7 +1308,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#6244bb, 4%);
     color: lighten(#00bce3, 12%);
     border-color: mix(#6244bb, #00bce3);
@@ -1258,7 +1328,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-CR, 4%);
     color: $color-gmk-abs-WS1;
     border-color: mix($color-gmk-abs-CR, $color-gmk-abs-WS1);
@@ -1273,7 +1344,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten(#c7e6f5, 4%);
     color: darken(#f54730, 26%);
     border-color: mix(#c7e6f5, #f54730);
@@ -1285,7 +1357,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(#2d394c, 4%);
     color: lighten(#f54730, 22%);
     border-color: mix(#2d394c, #f54730);

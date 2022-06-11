@@ -24,7 +24,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken(white, 4%);
     color: #232d43;
     border-color: mix(darken(white, 4%), #232d43);
@@ -57,7 +58,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-gmk-abs-2M, 6%);
     color: darken($color-gmk-abs-DY, 7%);
     border-color: mix($color-gmk-abs-2M, $color-gmk-abs-DY);
@@ -69,7 +71,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-gmk-abs-2B, 12%);
     color: lighten($color-gmk-abs-TU2, 12%);
     border-color: mix($color-gmk-abs-2B, $color-gmk-abs-TU2);
@@ -96,7 +99,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-pantone-155C, 4%);
     color: $color-pantone-7617C;
     border-color: mix($color-pantone-155C, $color-pantone-7617C);
@@ -108,7 +112,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-pantone-317C, 4%);
     color: $color-pantone-7617C;
     border-color: mix($color-pantone-317C, $color-pantone-7617C);

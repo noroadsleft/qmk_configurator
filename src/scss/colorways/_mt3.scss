@@ -11,7 +11,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-3277-alpha, 5%);
     color: $color-mt3-abs-3277-legend;
     border-color: $color-mt3-abs-3277-legend;
@@ -24,7 +25,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-3277-mod, 5%);
     color: $color-mt3-abs-3277-legend;
     border-color: $color-mt3-abs-3277-legend;
@@ -41,7 +43,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-3277-alpha, 5%);
     color: $color-mt3-abs-3277-legend;
     border-color: $color-mt3-abs-3277-legend;
@@ -54,7 +57,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-3277-mod, 5%);
     color: $color-mt3-abs-3277-legend;
     border-color: $color-mt3-abs-3277-legend;
@@ -71,7 +75,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-3277-alpha, 5%);
     color: $color-mt3-abs-3277-legend;
     border-color: $color-mt3-abs-3277-legend;
@@ -84,7 +89,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-3277-mod, 5%);
     color: $color-mt3-abs-3277-legend;
     border-color: $color-mt3-abs-3277-legend;
@@ -97,7 +103,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-abs-3277-red, 5%);
     color: $color-mt3-abs-3277-legend;
     border-color: $color-mt3-abs-3277-legend;
@@ -111,7 +118,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-dev-tty-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -124,7 +132,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dev-tty-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -137,7 +146,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dev-tty-accent-red, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -155,7 +165,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-dev-tty-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -168,7 +179,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dev-tty-teal, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -186,7 +198,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-dev-tty-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -199,7 +212,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dev-tty-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -212,7 +226,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dev-tty-accent-red, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -234,7 +249,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-elvish-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -247,7 +263,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-elvish-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -264,7 +281,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-elvish-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -277,7 +295,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-elvish-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -290,7 +309,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-elvish-rivendell, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -307,7 +327,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-elvish-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -320,7 +341,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-elvish-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -333,7 +355,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-elvish-evenstar, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -350,7 +373,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-elvish-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -363,7 +387,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-elvish-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -380,7 +405,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-dwarvish-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -393,7 +419,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dwarvish-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -410,7 +437,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-dwarvish-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -423,7 +451,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dwarvish-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -436,7 +465,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dwarvish-durin, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -453,7 +483,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-pbt-dwarvish-alpha, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -466,7 +497,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: lighten($color-mt3-pbt-dwarvish-mod, 5%);
     color: $color-mt3-pbt-black;
     border-color: $color-mt3-pbt-black;
@@ -480,7 +512,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-alpha, 5%);
     color: $color-mt3-abs-white;
     border-color: $color-mt3-abs-white;
@@ -493,7 +526,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-susu-legend-blue;
     border-color: $color-mt3-abs-susu-legend-blue;
@@ -506,7 +540,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-white;
     border-color: $color-mt3-abs-white;
@@ -519,7 +554,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-susu-legend-green;
     border-color: $color-mt3-abs-susu-legend-green;
@@ -532,7 +568,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-accent-red, 5%);
     color: $color-mt3-abs-white;
     border-color: $color-mt3-abs-white;
@@ -545,7 +582,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-susu-legend-red;
     border-color: $color-mt3-abs-susu-legend-red;
@@ -563,7 +601,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-alpha, 5%);
     color: $color-mt3-abs-white;
     border-color: $color-mt3-abs-white;
@@ -576,7 +615,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-susu-legend-blue;
     border-color: $color-mt3-abs-susu-legend-blue;
@@ -589,7 +629,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-white;
     border-color: $color-mt3-abs-white;
@@ -602,7 +643,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-accent-red, 5%);
     color: $color-mt3-abs-white;
     border-color: $color-mt3-abs-white;
@@ -615,7 +657,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-susu-legend-green;
     border-color: $color-mt3-abs-susu-legend-green;
@@ -628,7 +671,8 @@
   input,
   .key-contents,
   .key-contents:empty,
-  .key-contents::before {
+  .key-contents::before,
+  .key-contents:empty::before {
     background: darken($color-mt3-abs-susu-mod, 5%);
     color: $color-mt3-abs-susu-legend-red;
     border-color: $color-mt3-abs-susu-legend-red;
